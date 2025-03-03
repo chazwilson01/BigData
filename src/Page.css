@@ -177,3 +177,12 @@ body {
       gap: 1rem;
     }
   }
+
+
+.reportBtn {
+  background-color: #6f12a9;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}

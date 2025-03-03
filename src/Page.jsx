@@ -31,7 +31,7 @@ export default function ResourcesPage() {
           <div>
             <h2 className="text-xl font-semibold mb-2">CSV Tables</h2>
             <a
-              href="../public/tableA.csv"
+              href="/dist/tableA.csv"
               download
               className="block bg-green-500 text-white py-2 px-4 rounded mt-2"
             >
@@ -65,6 +65,21 @@ export default function ResourcesPage() {
             >
               Download IMDb Scraper
             </a>
+          </div>
+        </div>
+
+
+        <div className="w-full p-4 text-center bg-white shadow-md rounded-lg">
+          <div>
+            <h2 className="text-xl font-semibold mb-2">Report</h2>
+            <a
+              href="../public/Assignment2Report.pdf"
+              download
+              className="reportBtn block text-white py-2 px-4 rounded mt-2"
+            >
+              Download Assignment 2 Report
+            </a>
+          
           </div>
         </div>
       </div>
